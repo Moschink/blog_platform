@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  
+  /* justify-content: center; */
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+
+  margin-bottom: 50%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: whitesmoke;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color:grey;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.section-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section-title1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.formdiv{
+  justify-items: center;
+ 
+}
+textarea{
+  height: 13rem;
+  width: 100%;
+  
+}
+.blog_spot{
+  text-align: center;
+  color: white;
+}
+.inp{
+  height: 4rem;
+}
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.form-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-list-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post {
+  padding: 15px;
+  border-radius: 8px;
+  background-color:blanchedalmond;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.post-content {
+  font-size: 16px;
+  margin: 0;
+  
+}
+
+.post-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.delete-button, .edit-button {
+  background-color:#e74c3c;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #e74c3c;
+}
+
+.edit-button:hover {
+  background-color: #2ecc71;
+}
+.edit-button{
+  background-color:grey;
+}
+.btn{
+  text-align: center;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  color: white;
+  justify-self: center;
+  margin-left: 15%;
+  margin-top: 5%;
+}
